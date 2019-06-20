@@ -5,8 +5,8 @@
 mail_server = "mail.contoso.org"
 mail_server_port = 25
 skip_cert_verify = true
-auth_user = user
-auth_pass = pass
+auth_user = "user"
+auth_pass = "pass"
 mail_from = "noreply@contoso.org"
 mail_from_name = "The postman \"Pechkin\""
 log_file = "/tmp/pechkin.log"

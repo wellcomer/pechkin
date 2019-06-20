@@ -17,10 +17,10 @@ Usage: pechkin [options] attachment_file
 | ----------------|-------------------------------------------------------------------------------
 |```mail_server```      | ```server hostname or ip address (eg. mail.contoso.org)```
 |```mail_server_port``` | ```port number (eg. 25,465)```
-|```mail_server_ssl```  | ```ssl support (yes/no)```
+|```mail_server_ssl```  | ```ssl support (true/false)```
 |```auth_user```        | ```smtp auth username```
 |```auth_pass```        | ```smtp auth password```
-|```skip_cert_verify``` | ```skip certificate verification (allow selfsigned) (yes/no)```
+|```skip_cert_verify``` | ```skip certificate verification (allow selfsigned) (true/false)```
 |```mail_from```        | ```smtp mail from address```
 |```mail_from_name```   | ```message header From:```
 |```mail_to```          | ```smtp mail to address```
