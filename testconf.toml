@@ -1,0 +1,31 @@
+[general]
+
+# Default table
+
+mail_server = "mail.contoso.org"
+mail_server_port = 25
+skip_cert_verify = true
+auth_user = user
+auth_pass = pass
+mail_from = "noreply@contoso.org"
+mail_from_name = "The postman \"Pechkin\""
+log_file = "/tmp/pechkin.log"
+#max_file_size = 5000000
+
+[happybirthday]
+
+msg_subj = "Happy birthday!"                                                                                                                                                                                                                 
+mail_from = "santa@contoso.org"
+mail_from_name = "Santa Claus"
+attach_file = "/home/nena/luftbaloons.jpg"
+mail_to_cc = "admin@contoso.org"
+mail_to_bcc = "chief@contoso.org"
+
+[songs]
+
+mail_to = "melomaniac@contoso.org"
+msg_subj = "New song: %s"
+msg_text = "Hello! This is a new song in our collection: contoso.org/mp3/%s"
+copy_to_path = "/var/www/contoso.org/mp3"
+match_name = ".mp3$"
+
